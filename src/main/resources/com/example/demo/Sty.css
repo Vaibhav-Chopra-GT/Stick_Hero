@@ -1,0 +1,21 @@
+.Ap {
+    -fx-background-image: url('img.png');
+    -fx-background-size: contain;
+    -fx-background-size: cover;
+
+}
+.home{
+    -fx-background-image: url('home.png');
+    -fx-background-size: contain;
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+
+}
+
+.revive{
+    -fx-background-image: url('revive.png');
+    -fx-background-size: contain;
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+
+}

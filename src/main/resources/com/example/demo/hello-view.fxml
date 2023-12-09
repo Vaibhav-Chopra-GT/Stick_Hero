@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Ap" stylesheets="@Sty.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Rectangle fx:id="contdiv1" arcHeight="10.0" arcWidth="10.0" fill="WHITE" height="39.0" layoutX="503.0" layoutY="24.0" opacity="0.5" stroke="TRANSPARENT" strokeType="INSIDE" width="80.0" />
+      <Button id="butt1" fx:id="music" focusTraversable="false" layoutX="548.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#stopmusic" prefHeight="23.0" prefWidth="23.0" styleClass="mutebutton" stylesheets="@mutebutton.css">
+         <font>
+            <Font size="1.0" />
+         </font></Button>
+      <Rectangle fx:id="rotrect" height="100.0" layoutY="300.0" stroke="TRANSPARENT" strokeType="INSIDE" width="110.0" />
+      <Button fx:id="contr" layoutX="43.0" layoutY="340.0" mnemonicParsing="false" onKeyPressed="#rotate" onKeyReleased="#stoptrans" opacity="0.0" text="Button" />
+      <Rectangle fx:id="rec2" height="100.0" layoutX="218.0" layoutY="300.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" width="165.0" />
+      <ImageView fx:id="spiv" fitHeight="50.0" fitWidth="50.0" layoutX="53.0" layoutY="252.0" pickOnBounds="true" translateX="10.0">
+         <image>
+            <Image url="@idle/Untitled-100.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="contdiv" arcHeight="10.0" arcWidth="10.0" fill="#d1d1d1" height="39.0" layoutX="261.0" layoutY="40.0" opacity="0.7" stroke="TRANSPARENT" strokeType="INSIDE" width="80.0" />
+      <Text fx:id="Score" fill="WHITE" layoutX="275.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="52.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="40.0" fitWidth="37.0" layoutX="32.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cherry.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="text1" fill="WHITE" layoutX="70.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Button id="Home" fx:id="back" focusTraversable="false" layoutX="518.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="22.0" prefWidth="22.0" styleClass="home">
+         <font>
+            <Font size="8.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

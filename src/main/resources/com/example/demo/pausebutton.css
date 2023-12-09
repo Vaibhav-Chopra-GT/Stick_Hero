@@ -1,0 +1,5 @@
+.pausebutton{
+    -fx-background-image: url('pause.png');
+    -fx-background-size: contain;
+    -fx-background-size: cover;
+}

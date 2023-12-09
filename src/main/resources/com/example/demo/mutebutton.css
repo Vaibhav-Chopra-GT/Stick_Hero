@@ -1,0 +1,13 @@
+#butt1{
+    -fx-background-image: url('mute.png');
+    -fx-background-size: contain;
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+}
+
+#nut1{
+    -fx-background-image: url('unmute.png');
+    -fx-background-size: contain;
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+}

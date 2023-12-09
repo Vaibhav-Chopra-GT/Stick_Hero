@@ -1,0 +1,5 @@
+.resetbutton{
+    -fx-background-image: url('retry.png');
+    -fx-background-color: transparent;
+    -fx-overflow:hidden;
+}
