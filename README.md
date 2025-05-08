@@ -84,3 +84,27 @@ This project is a Stick Hero–style platformer game developed using Java. The g
 1. Clone the repository:
    ```bash
    git clone https://github.com/Vaibhav-Chopra-GT/AP_Project.git
+
+   Open the project folder in your IDE.
+
+Set the JDK version to 21.
+
+Locate the class with the main method (e.g., Main.java).
+
+Right-click and choose Run, or press the run button.
+
+#### Option 2: Run via Command Line
+Open terminal and navigate to the project directory.
+
+Compile the Java files:
+
+bash
+Copy
+Edit
+javac -d bin src/*.java
+Run the main class (replace Main with actual class name):
+
+bash
+Copy
+Edit
+java -cp bin Main
